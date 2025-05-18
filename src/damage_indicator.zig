@@ -46,7 +46,7 @@ pub fn run() !void {
 const color_coding = [_]console.ForegroundColors{ .Blue, .Green, .Magenta, .DarkYellow };
 
 inline fn drawRow(first: []const u8, second: []const u8) void {
-    console.print("{0s: <15}{1s: >15}\n", .{ first, second });
+    console.print("{0s: <16}{1s: >14}\n", .{ first, second });
 }
 
 pub const WeaponType = enum(u8) {
