@@ -5,17 +5,17 @@ const player_count = 4;
 const offset_per_player = 0x78;
 
 pub var client_damage = PointerPath.create(
-    &.{ 0x13794540, 0x70, 0xE80 },
+    &.{ 0x139A6D00, 0xA8, 0xCD0 },
     null,
 );
 
 pub var client_weapon = PointerPath.create(
-    &.{ 0x13794540, 0x1B8, 0x98, 0x60, 0x7C },
+    &.{ 0x139A6D00, 0x1B8, 0x1D8, 0x60, 0x7C },
     null,
 );
 
 const first_player_damage = PointerPath.create(
-    &.{ 0x13794540, 0x70, 0x1430 },
+    &.{ 0x139A6D00, 0xA8, 0x10F0 },
     null,
 );
 
